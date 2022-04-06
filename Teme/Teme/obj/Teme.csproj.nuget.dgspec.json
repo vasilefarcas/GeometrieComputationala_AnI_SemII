@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Drive\\OneDrive\\Facultate\\Semestrul II\\Geometrie Computationala\\Teme\\Teme\\Teme.csproj": {}
+    "D:\\Drive\\OneDrive\\Documente\\GitHub\\GeometrieComputationala\\GeometrieComputationala_AnI_SemII\\Teme\\Teme\\Teme.csproj": {}
   },
   "projects": {
-    "D:\\Drive\\OneDrive\\Facultate\\Semestrul II\\Geometrie Computationala\\Teme\\Teme\\Teme.csproj": {
+    "D:\\Drive\\OneDrive\\Documente\\GitHub\\GeometrieComputationala\\GeometrieComputationala_AnI_SemII\\Teme\\Teme\\Teme.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Drive\\OneDrive\\Facultate\\Semestrul II\\Geometrie Computationala\\Teme\\Teme\\Teme.csproj",
+        "projectUniqueName": "D:\\Drive\\OneDrive\\Documente\\GitHub\\GeometrieComputationala\\GeometrieComputationala_AnI_SemII\\Teme\\Teme\\Teme.csproj",
         "projectName": "Teme",
-        "projectPath": "D:\\Drive\\OneDrive\\Facultate\\Semestrul II\\Geometrie Computationala\\Teme\\Teme\\Teme.csproj",
+        "projectPath": "D:\\Drive\\OneDrive\\Documente\\GitHub\\GeometrieComputationala\\GeometrieComputationala_AnI_SemII\\Teme\\Teme\\Teme.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Drive\\OneDrive\\Facultate\\Semestrul II\\Geometrie Computationala\\Teme\\Teme\\obj\\",
+        "outputPath": "D:\\Drive\\OneDrive\\Documente\\GitHub\\GeometrieComputationala\\GeometrieComputationala_AnI_SemII\\Teme\\Teme\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

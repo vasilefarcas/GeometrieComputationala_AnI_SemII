@@ -21,7 +21,7 @@ namespace Teme
         {
             Graphics g = e.Graphics;
             Random random = new Random();
-            int n = random.Next(50);
+            int n = random.Next(3,50);
             int[] a = new int[n];
             Point[] points = new Point[n];
             Point[] good_points = new Point[n];
@@ -66,6 +66,7 @@ namespace Teme
             p1 = good_points[0];
             p2 = good_points[1];
             Point min_point = new Point();
+            
             for (int i = 0; i <= s; i++)
             {
                 double max_angle = 0;
@@ -78,9 +79,9 @@ namespace Teme
                         min_point = good_points[j];
                     }
                 }
-                g.DrawLine(blackPen, p1, p2);
                 p1 = p2;
                 p2 = min_point;
+                g.DrawLine(blackPen, p1, p2);
             }
         }
 
@@ -97,14 +98,13 @@ namespace Teme
 
         bool Apart(Point x, Point a, Point b, Point c)
         {
-            bool apart = true;
             float k1, k2, k3;
             k1 = Sarrus(a, b, x);
             k2 = Sarrus(b, c, x);
             k3 = Sarrus(c, a, x);
             if (k1 * k2 < 0 || k1 * k3 < 0 || k2 * k3 < 0)
-                apart = false;
-            return apart;
+                return false;
+            return true;
         }
         float Sarrus(Point a, Point b, Point c)
         {
