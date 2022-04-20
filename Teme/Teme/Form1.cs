@@ -42,5 +42,17 @@ namespace Teme
             InvelitaoreConvexa f = new InvelitaoreConvexa();
             f.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Triangulare f=new Triangulare();
+            f.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            DesenarePuncte f=new DesenarePuncte();
+            f.Show();
+        }
     }
 }
