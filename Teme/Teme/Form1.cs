@@ -54,5 +54,10 @@ namespace Teme
             DesenarePuncte f=new DesenarePuncte();
             f.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
