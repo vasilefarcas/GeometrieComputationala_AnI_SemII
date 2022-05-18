@@ -43,6 +43,9 @@
             this.button8 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -57,7 +60,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(417, 257);
+            this.button2.Location = new System.Drawing.Point(9, 355);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(198, 95);
             this.button2.TabIndex = 1;
@@ -87,7 +90,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(213, 257);
+            this.button4.Location = new System.Drawing.Point(417, 254);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(198, 95);
             this.button4.TabIndex = 4;
@@ -153,7 +156,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(9, 257);
+            this.button7.Location = new System.Drawing.Point(213, 254);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(198, 95);
             this.button7.TabIndex = 11;
@@ -163,7 +166,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(213, 156);
+            this.button8.Location = new System.Drawing.Point(9, 254);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(198, 95);
             this.button8.TabIndex = 13;
@@ -174,7 +177,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(213, 156);
+            this.label7.Location = new System.Drawing.Point(9, 254);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(41, 15);
             this.label7.TabIndex = 14;
@@ -182,7 +185,7 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(415, 156);
+            this.button9.Location = new System.Drawing.Point(417, 156);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(198, 95);
             this.button9.TabIndex = 15;
@@ -190,11 +193,42 @@
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(213, 156);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(198, 95);
+            this.button10.TabIndex = 16;
+            this.button10.Text = "InvelitoareJarvis";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(213, 156);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(41, 15);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "Tema5";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(417, 156);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(41, 15);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Tema6";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(625, 362);
+            this.ClientSize = new System.Drawing.Size(625, 538);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button8);
@@ -234,5 +268,8 @@
         private Button button8;
         private Label label7;
         private Button button9;
+        private Button button10;
+        private Label label6;
+        private Label label8;
     }
 }

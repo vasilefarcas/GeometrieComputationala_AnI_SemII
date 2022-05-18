@@ -16,6 +16,9 @@
     <Compile Update="InvelitaoreConvexa.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="InvelitoareJarvis.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Tema1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -48,3 +48,4 @@ D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationa
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.genruntimeconfig.cache
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.DesenarePuncte.resources
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Triangulare.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.InvelitoareJarvis.resources

@@ -59,5 +59,11 @@ namespace Teme
         {
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            InvelitoareJarvis f = new InvelitoareJarvis();
+            f.Show();
+        }
     }
 }
