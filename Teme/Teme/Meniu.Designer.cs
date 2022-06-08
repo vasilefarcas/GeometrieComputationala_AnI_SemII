@@ -1,6 +1,6 @@
 ﻿namespace Teme
 {
-    partial class Form1
+    partial class Meniu
     {
         /// <summary>
         ///  Required designer variable.
@@ -46,6 +46,11 @@
             this.button10 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -60,7 +65,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(9, 355);
+            this.button2.Location = new System.Drawing.Point(415, 355);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(198, 95);
             this.button2.TabIndex = 1;
@@ -90,7 +95,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(417, 254);
+            this.button4.Location = new System.Drawing.Point(9, 456);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(198, 95);
             this.button4.TabIndex = 4;
@@ -156,7 +161,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(213, 254);
+            this.button7.Location = new System.Drawing.Point(213, 355);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(198, 95);
             this.button7.TabIndex = 11;
@@ -221,11 +226,63 @@
             this.label8.TabIndex = 18;
             this.label8.Text = "Tema6";
             // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(213, 254);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(196, 95);
+            this.button11.TabIndex = 19;
+            this.button11.Text = "TriangulareOtectomie";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(415, 254);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(196, 94);
+            this.button12.TabIndex = 20;
+            this.button12.Text = "PartitionarePoligoaneMonotone";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(9, 355);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(198, 95);
+            this.button13.TabIndex = 21;
+            this.button13.Text = "button13";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(213, 254);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(41, 15);
+            this.label9.TabIndex = 22;
+            this.label9.Text = "Tema8";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(415, 254);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(41, 15);
+            this.label10.TabIndex = 23;
+            this.label10.Text = "Tema9";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(625, 538);
+            this.ClientSize = new System.Drawing.Size(625, 653);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button11);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button10);
@@ -271,5 +328,10 @@
         private Button button10;
         private Label label6;
         private Label label8;
+        private Button button11;
+        private Button button12;
+        private Button button13;
+        private Label label9;
+        private Label label10;
     }
 }

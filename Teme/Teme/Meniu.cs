@@ -1,8 +1,8 @@
 namespace Teme
 {
-    public partial class Form1 : Form
+    public partial class Meniu : Form
     {
-        public Form1()
+        public Meniu()
         {
             InitializeComponent();
         }
@@ -63,6 +63,18 @@ namespace Teme
         private void button10_Click(object sender, EventArgs e)
         {
             InvelitoareJarvis f = new InvelitoareJarvis();
+            f.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            TriangulareOtectomie f = new TriangulareOtectomie();
+            f.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            PartitionarePoligoaneMonotone f = new PartitionarePoligoaneMonotone();
             f.Show();
         }
     }

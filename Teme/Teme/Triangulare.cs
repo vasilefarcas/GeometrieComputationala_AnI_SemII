@@ -34,7 +34,7 @@ namespace Teme
         private void Triangulare_Click(object sender, EventArgs e)
         {
 
-            p.Add(this.PointToClient(new Point(Form1.MousePosition.X, Form1.MousePosition.Y)));
+            p.Add(this.PointToClient(new Point(Meniu.MousePosition.X, Meniu.MousePosition.Y)));
             g.DrawEllipse(pen, p[n].X, p[n].Y, raza, raza);
             g.DrawString((n + 1).ToString(), new Font(FontFamily.GenericSansSerif, 10),
             new SolidBrush(Color.Navy), p[n].X + raza, p[n].Y - raza);
