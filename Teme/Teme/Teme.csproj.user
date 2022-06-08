@@ -7,7 +7,13 @@
     <Compile Update="DesenarePuncte.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form1.cs">
+    <Compile Update="TriangularePoligonMonoton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PartitionarePoligoaneMonotone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meniu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Form2.cs">
@@ -17,9 +23,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="InvelitoareJarvis.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="PartitionarePoligoaneMonotone.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Tema1.cs">

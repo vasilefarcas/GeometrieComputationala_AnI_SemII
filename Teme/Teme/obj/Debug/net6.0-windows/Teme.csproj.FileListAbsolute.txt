@@ -24,7 +24,6 @@ D:\Drive\OneDrive\Facultate\Semestrul II\Geometrie Computationala\Teme\Teme\obj\
 D:\Drive\OneDrive\Facultate\Semestrul II\Geometrie Computationala\Teme\Teme\obj\Debug\net6.0-windows\Teme.CercArieMinima.resources
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.csproj.AssemblyReference.cache
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.CercArieMinima.resources
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Form1.resources
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Form2.resources
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.InvelitaoreConvexa.resources
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema1.resources
@@ -51,3 +50,5 @@ D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationa
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.InvelitoareJarvis.resources
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.TriangulareOtectomie.resources
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.PartitionarePoligoaneMonotone.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Meniu.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.TriangularePoligonMonoton.resources

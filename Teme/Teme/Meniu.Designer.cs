@@ -51,6 +51,7 @@
             this.button13 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -252,8 +253,9 @@
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(198, 95);
             this.button13.TabIndex = 21;
-            this.button13.Text = "button13";
+            this.button13.Text = "TriangularePoligonMonoton";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click_1);
             // 
             // label9
             // 
@@ -273,11 +275,21 @@
             this.label10.TabIndex = 23;
             this.label10.Text = "Tema9";
             // 
-            // Form1
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(9, 355);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(47, 15);
+            this.label11.TabIndex = 24;
+            this.label11.Text = "Tema10";
+            // 
+            // Meniu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(625, 653);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.button13);
@@ -301,7 +313,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "Meniu";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -333,5 +345,6 @@
         private Button button13;
         private Label label9;
         private Label label10;
+        private Label label11;
     }
 }

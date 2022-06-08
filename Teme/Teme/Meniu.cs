@@ -77,5 +77,17 @@ namespace Teme
             PartitionarePoligoaneMonotone f = new PartitionarePoligoaneMonotone();
             f.Show();
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            TriangularePoligonMonoton f = new TriangularePoligonMonoton();
+            f.Show();
+        }
+
+        private void button13_Click_1(object sender, EventArgs e)
+        {
+            TriangularePoligonMonoton f = new TriangularePoligonMonoton();
+            f.Show();
+        }
     }
 }

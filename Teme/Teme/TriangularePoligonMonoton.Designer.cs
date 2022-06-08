@@ -1,7 +1,7 @@
 ﻿
 namespace Teme
 {
-    partial class PartitionarePoligoaneMonotone
+    partial class TriangularePoligonMonoton
     {
         /// <summary>
         /// Required designer variable.
@@ -33,6 +33,9 @@ namespace Teme
             this.button1 = new System.Windows.Forms.Button();
             this.buttonFinishUp = new System.Windows.Forms.Button();
             this.buttonPartiton = new System.Windows.Forms.Button();
+            this.buttonTriangulate = new System.Windows.Forms.Button();
+            this.buttonSavePolygons = new System.Windows.Forms.Button();
+            this.listBoxPoligoane = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // panel1
@@ -77,11 +80,44 @@ namespace Teme
             this.buttonPartiton.UseVisualStyleBackColor = true;
             this.buttonPartiton.Click += new System.EventHandler(this.buttonPartiton_Click);
             // 
+            // buttonTriangulate
+            // 
+            this.buttonTriangulate.Enabled = false;
+            this.buttonTriangulate.Location = new System.Drawing.Point(638, 130);
+            this.buttonTriangulate.Name = "buttonTriangulate";
+            this.buttonTriangulate.Size = new System.Drawing.Size(75, 23);
+            this.buttonTriangulate.TabIndex = 4;
+            this.buttonTriangulate.Text = "Triangulate";
+            this.buttonTriangulate.UseVisualStyleBackColor = true;
+            this.buttonTriangulate.Click += new System.EventHandler(this.buttonTriangulate_Click);
+            // 
+            // buttonSavePolygons
+            // 
+            this.buttonSavePolygons.Enabled = false;
+            this.buttonSavePolygons.Location = new System.Drawing.Point(638, 101);
+            this.buttonSavePolygons.Name = "buttonSavePolygons";
+            this.buttonSavePolygons.Size = new System.Drawing.Size(75, 23);
+            this.buttonSavePolygons.TabIndex = 5;
+            this.buttonSavePolygons.Text = "SavePolygons";
+            this.buttonSavePolygons.UseVisualStyleBackColor = true;
+            this.buttonSavePolygons.Click += new System.EventHandler(this.buttonSavePolygons_Click);
+            // 
+            // listBoxPoligoane
+            // 
+            this.listBoxPoligoane.FormattingEnabled = true;
+            this.listBoxPoligoane.Location = new System.Drawing.Point(638, 171);
+            this.listBoxPoligoane.Name = "listBoxPoligoane";
+            this.listBoxPoligoane.Size = new System.Drawing.Size(76, 147);
+            this.listBoxPoligoane.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 367);
+            this.ClientSize = new System.Drawing.Size(762, 374);
+            this.Controls.Add(this.listBoxPoligoane);
+            this.Controls.Add(this.buttonSavePolygons);
+            this.Controls.Add(this.buttonTriangulate);
             this.Controls.Add(this.buttonPartiton);
             this.Controls.Add(this.buttonFinishUp);
             this.Controls.Add(this.button1);
@@ -98,6 +134,9 @@ namespace Teme
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonFinishUp;
         private System.Windows.Forms.Button buttonPartiton;
+        private System.Windows.Forms.Button buttonTriangulate;
+        private System.Windows.Forms.Button buttonSavePolygons;
+        private System.Windows.Forms.ListBox listBoxPoligoane;
     }
 }
 
