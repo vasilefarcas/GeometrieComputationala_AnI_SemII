@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Teme
 {
-    public partial class TriangulareOtectomie : Form
+    public partial class Tema8_TriangulareOtectomie : Form
     {
-        public TriangulareOtectomie()
+        public Tema8_TriangulareOtectomie()
         {
             InitializeComponent();
         }

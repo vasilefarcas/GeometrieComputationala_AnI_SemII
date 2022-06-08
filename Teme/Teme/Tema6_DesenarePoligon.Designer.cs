@@ -1,6 +1,6 @@
 ﻿namespace Teme
 {
-    partial class DesenarePuncte
+    partial class Tema6_DesenarePoligon
     {
         /// <summary>
         /// Required designer variable.

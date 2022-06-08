@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Teme
 {
-    public partial class InvelitoareJarvis : Form
+    public partial class Tema5_InvelitoareConvexaJarvis : Form
     {
-        public InvelitoareJarvis()
+        public Tema5_InvelitoareConvexaJarvis()
         {
             InitializeComponent();
         }

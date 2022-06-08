@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Teme
 {
-    public partial class Tema1 : Form
+    public partial class Tema1_DreptunghiArieMinima : Form
     {
-        public Tema1()
+        public Tema1_DreptunghiArieMinima()
         {
             InitializeComponent();
         }

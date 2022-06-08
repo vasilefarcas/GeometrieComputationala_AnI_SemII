@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Teme
 {
-    public partial class PartitionarePoligoaneMonotone : Form
+    public partial class Tema9_PartitionarePoligoaneMonotone : Form
     {
-        public PartitionarePoligoaneMonotone()
+        public Tema9_PartitionarePoligoaneMonotone()
         {
             InitializeComponent();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Teme
 {
-    public partial class Tema3 : Form
+    public partial class Tema3_CercArieMinima : Form
     {
-        public Tema3()
+        public Tema3_CercArieMinima()
         {
             InitializeComponent();
         }

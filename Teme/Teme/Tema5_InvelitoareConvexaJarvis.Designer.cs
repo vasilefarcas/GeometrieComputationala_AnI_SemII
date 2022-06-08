@@ -1,6 +1,6 @@
 ﻿namespace Teme
 {
-    partial class InvelitoareJarvis
+    partial class Tema5_InvelitoareConvexaJarvis
     {
         /// <summary>
         /// Required designer variable.

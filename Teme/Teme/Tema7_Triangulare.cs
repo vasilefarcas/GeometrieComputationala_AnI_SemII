@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Teme
 {
-    public partial class Triangulare : Form
+    public partial class Tema7_Triangulare : Form
     {
         Graphics g;
         Pen pen = new Pen(Color.Navy);
@@ -18,7 +18,7 @@ namespace Teme
         int n = 0; // nr de varfuri ale poligonului
         List<PointF> p = new List<PointF>(); //lista varfurilor
         bool poligon_inchis = false;
-        public Triangulare()
+        public Tema7_Triangulare()
         {
             InitializeComponent();
             button3.Hide();

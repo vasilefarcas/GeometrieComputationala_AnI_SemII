@@ -1,7 +1,7 @@
 ﻿
 namespace Teme
 {
-    partial class PartitionarePoligoaneMonotone
+    partial class Tema9_PartitionarePoligoaneMonotone
     {
         /// <summary>
         /// Required designer variable.

@@ -1,6 +1,6 @@
 ﻿namespace Teme
 {
-    partial class TriangulareOtectomie
+    partial class Tema8_TriangulareOtectomie
     {
         /// <summary>
         /// Required designer variable.

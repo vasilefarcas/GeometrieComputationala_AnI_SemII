@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Teme
 {
-    public partial class DesenarePuncte : Form
+    public partial class Tema6_DesenarePoligon : Form
     {
-        public DesenarePuncte()
+        public Tema6_DesenarePoligon()
         {
             InitializeComponent();
             g = CreateGraphics();
