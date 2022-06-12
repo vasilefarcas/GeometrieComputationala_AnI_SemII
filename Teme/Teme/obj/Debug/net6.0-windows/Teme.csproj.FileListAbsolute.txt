@@ -24,12 +24,6 @@ D:\Drive\OneDrive\Facultate\Semestrul II\Geometrie Computationala\Teme\Teme\obj\
 D:\Drive\OneDrive\Facultate\Semestrul II\Geometrie Computationala\Teme\Teme\obj\Debug\net6.0-windows\Teme.CercArieMinima.resources
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.csproj.AssemblyReference.cache
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.CercArieMinima.resources
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Form2.resources
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.InvelitaoreConvexa.resources
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema1.resources
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema2.resources
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema3.resources
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema4.resources
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.csproj.GenerateResource.cache
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.GeneratedMSBuildEditorConfig.editorconfig
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.AssemblyInfoInputs.cache
@@ -45,10 +39,16 @@ D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationa
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\bin\Debug\net6.0-windows\Teme.pdb
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\refint\Teme.dll
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.genruntimeconfig.cache
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.DesenarePuncte.resources
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Triangulare.resources
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.InvelitoareJarvis.resources
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.TriangulareOtectomie.resources
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.PartitionarePoligoaneMonotone.resources
 D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Meniu.resources
-D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.TriangularePoligonMonoton.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema10_TriangularePoligonMonoton.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema1_DreptunghiArieMinima.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema2_TriumghiArieMinima.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema3_CercArieMinima.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema4_InvelitoareConvexaSimplu.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema5_InvelitaoreConvexa.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema5_InvelitoareConvexaJarvis.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema6_DesenarePoligon.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema7_Triangulare.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema8_TriangulareOtectomie.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Tema9_PartitionarePoligoaneMonotone.resources
+D:\Drive\OneDrive\Documente\GitHub\GeometrieComputationala\GeometrieComputationala_AnI_SemII\Teme\Teme\obj\Debug\net6.0-windows\Teme.Triunghi.resources

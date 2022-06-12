@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Teme
 {
-    public partial class Form2 : Form
+    public partial class Triunghi : Form
     {
-        public Form2()
+        public Triunghi()
         {
             InitializeComponent();
         }

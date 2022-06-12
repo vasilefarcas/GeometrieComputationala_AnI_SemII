@@ -1,6 +1,6 @@
 ﻿namespace Teme
 {
-    partial class Tema4
+    partial class Tema4_InvelitoareConvexaSimplu
     {
         /// <summary>
         /// Required designer variable.

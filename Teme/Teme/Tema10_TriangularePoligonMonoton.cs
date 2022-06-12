@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Teme
 {
-    public partial class TriangularePoligonMonoton : Form
+    public partial class Tema10_TriangularePoligonMonoton : Form
     {
-        public TriangularePoligonMonoton()
+        public Tema10_TriangularePoligonMonoton()
         {
             InitializeComponent();
         }
@@ -317,7 +317,7 @@ namespace Teme
             buttonTriangulate.Enabled = true;
             buttonSavePolygons.Enabled = false;
             int[] determinantPoligoane = new int[points.Count]; //am marcat cu 0 poligoanele care sunt sterse
-            for(int i = 0; i < points.Count; i++)
+            for (int i = 0; i < points.Count; i++)
             {
                 determinantPoligoane[i] = 1;
             }
@@ -415,59 +415,14 @@ namespace Teme
                     punctePoligonCurent.Add(points[varfuriPoligonCurent[k]]);
                 }
                 List<Tuple<int, int>> diagonale = new List<Tuple<int, int>>();
-                if(punctePoligonCurent.Count < 3)
+                if (punctePoligonCurent.Count < 3)
                 {
                     return;
                 }
-                ////impartirea in lanturi
-                //int pozMin = 0;
-                //int pozMax = 0;
-                //for (int a = 0; a < varfuriPoligonCurent.Count; a++)
-                //{
-                //    if (points[varfuriPoligonCurent[a]].Y < points[pozMin].Y)
-                //    {
-                //        pozMin = a;
-                //    }
-                //    if (points[varfuriPoligonCurent[a]].Y > points[pozMax].Y)
-                //    {
-                //        pozMax = a;
-                //    }
-                //}
-                //List<int> lantA = new List<int>();
-                //int punctCurent = pozMin;
-                //while (punctCurent != pozMax)
-                //{
-                //    lantA.Add(varfuriPoligonCurent[punctCurent]);
-                //    punctCurent = (punctCurent + 1) % varfuriPoligonCurent.Count;
-                //}
-                //lantA.Add(varfuriPoligonCurent[pozMax]);
-
-                //List<int> lantB = new List<int>();
-                //punctCurent = pozMax;
-                //while (punctCurent != pozMin)
-                //{
-                //    lantB.Add(varfuriPoligonCurent[punctCurent]);
-                //    punctCurent = (punctCurent + 1) % varfuriPoligonCurent.Count;
-                //}
-                //lantB.Add(varfuriPoligonCurent[pozMin]);
-
-                ////sortare varfuri dupa ordonata
-                //for (int k = 0; k < varfuriPoligonCurent.Count - 1; k++)
-                //{
-                //    for (int l = k + 1; l < varfuriPoligonCurent.Count; l++)
-                //    {
-                //        if (points[varfuriPoligonCurent[k]].Y > points[varfuriPoligonCurent[l]].Y)
-                //        {
-                //            int aux = varfuriPoligonCurent[k];
-                //            varfuriPoligonCurent[k] = varfuriPoligonCurent[l];
-                //            varfuriPoligonCurent[l] = aux;
-                //        }
-                //    }
-                //}
                 List<int> lantA = new List<int>();
                 List<int> lantOrdonat = OrdonareLexicografica(punctePoligonCurent);
                 List<int> lantOrdonatOriginale = new List<int>();
-                for(int k = 0; k < lantOrdonat.Count; k++)
+                for (int k = 0; k < lantOrdonat.Count; k++)
                 {
                     lantOrdonatOriginale.Add(varfuriPoligonCurent[lantOrdonat[k]]);
                 }

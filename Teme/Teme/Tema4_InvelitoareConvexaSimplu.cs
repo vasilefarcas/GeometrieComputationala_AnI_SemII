@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Teme
 {
-    public partial class Tema4 : Form
+    public partial class Tema4_InvelitoareConvexaSimplu : Form
     {
-        public Tema4()
+        public Tema4_InvelitoareConvexaSimplu()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace Teme
 {
-    partial class Form2
+    partial class Triunghi
     {
         /// <summary>
         /// Required designer variable.

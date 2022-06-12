@@ -9,49 +9,49 @@ namespace Teme
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Tema1 tema1 = new Tema1();
+            Tema1_DreptunghiArieMinima tema1 = new Tema1_DreptunghiArieMinima();
             tema1.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Tema2 tema2 = new Tema2();
+            Tema2_TriumghiArieMinima tema2 = new Tema2_TriumghiArieMinima();
             tema2.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Tema3 tema3 = new Tema3();
+            Tema3_CercArieMinima tema3 = new Tema3_CercArieMinima();
             tema3.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Tema4 tema4 = new Tema4();
+            Tema4_InvelitoareConvexaSimplu tema4 = new Tema4_InvelitoareConvexaSimplu();
             tema4.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            Triunghi form2 = new Triunghi();
             form2.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            InvelitaoreConvexa f = new InvelitaoreConvexa();
+            Tema5_InvelitaoreConvexa f = new Tema5_InvelitaoreConvexa();
             f.Show();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Triangulare f=new Triangulare();
+            Tema7_Triangulare f=new Tema7_Triangulare();
             f.Show();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            DesenarePuncte f=new DesenarePuncte();
+            Tema6_DesenarePoligon f=new Tema6_DesenarePoligon();
             f.Show();
         }
 
@@ -62,31 +62,31 @@ namespace Teme
 
         private void button10_Click(object sender, EventArgs e)
         {
-            InvelitoareJarvis f = new InvelitoareJarvis();
+            Tema5_InvelitoareConvexaJarvis f = new Tema5_InvelitoareConvexaJarvis();
             f.Show();
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            TriangulareOtectomie f = new TriangulareOtectomie();
+            Tema8_TriangulareOtectomie f = new Tema8_TriangulareOtectomie();
             f.Show();
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            PartitionarePoligoaneMonotone f = new PartitionarePoligoaneMonotone();
+            Tema9_PartitionarePoligoaneMonotone f = new Tema9_PartitionarePoligoaneMonotone();
             f.Show();
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            TriangularePoligonMonoton f = new TriangularePoligonMonoton();
+            Tema10_TriangularePoligonMonoton f = new Tema10_TriangularePoligonMonoton();
             f.Show();
         }
 
         private void button13_Click_1(object sender, EventArgs e)
         {
-            TriangularePoligonMonoton f = new TriangularePoligonMonoton();
+            Tema10_TriangularePoligonMonoton f = new Tema10_TriangularePoligonMonoton();
             f.Show();
         }
     }

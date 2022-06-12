@@ -27,32 +27,6 @@ namespace Teme
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             g = e.Graphics;
-            //points.Add(new Point(269, 25));
-            //points.Add(new Point(316, 104));
-            //points.Add(new Point(378, 50));
-            //points.Add(new Point(384, 140));
-            //points.Add(new Point(438, 121));
-            //points.Add(new Point(507, 195));
-            //points.Add(new Point(383, 207));
-            //points.Add(new Point(387, 258));
-            //points.Add(new Point(284, 331));
-            //points.Add(new Point(227, 209));
-            //points.Add(new Point(78, 277));
-            //points.Add(new Point(142, 102));
-            //points.Add(new Point(268, 175));
-            //points.Add(new Point(218, 65));
-            //points.Add(new Point(68, 70));
-            //Pen pen = new Pen(Color.Black, 2);
-            //if (points.Count > 1)
-            //{
-            //    e.Graphics.DrawLines(pen, points.ToArray());
-            //    for(int i=0;i<points.Count;i++)
-            //    {
-            //        g.DrawString(contor.ToString(), new Font(FontFamily.GenericSansSerif, 10), new SolidBrush(Color.Black), points[i].X - 20, points[i].Y - 20);
-            //        contor++;
-            //    }
-            //}
-
         }
 
         private void panel1_MouseUp(object sender, MouseEventArgs e)
@@ -134,7 +108,7 @@ namespace Teme
                         }
                         if (este_deasupra(i, (i - 1)) && este_deasupra(i, 0))
                         {
-                            int index = UnVarfSubVarful(i); 
+                            int index = UnVarfSubVarful(i);
                             g.DrawLine(penPart, points[i], points[index]);
                         }
                     }
@@ -164,7 +138,7 @@ namespace Teme
             int minIndex = -1;
             for (int index = 0; index < points.Count; index++)
             {
-                if (este_deasupra(i, index)  && IsDiagonal(points, i, index))
+                if (este_deasupra(i, index) && IsDiagonal(points, i, index))
                 {
                     if (minIndex == -1)
                     {
@@ -189,7 +163,7 @@ namespace Teme
             {
                 if (este_sub(i, index) && IsDiagonal(points, i, index))
                 {
-                    if(maxIndex == -1)
+                    if (maxIndex == -1)
                     {
                         maxIndex = index;
                     }
@@ -308,5 +282,10 @@ namespace Teme
             return false;
         }
         #endregion
+
+        private void Tema9_PartitionarePoligoaneMonotone_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

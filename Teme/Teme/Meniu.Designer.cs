@@ -143,7 +143,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(9, 156);
+            this.button6.Location = new System.Drawing.Point(211, 153);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(198, 95);
             this.button6.TabIndex = 9;
@@ -201,11 +201,11 @@
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(213, 156);
+            this.button10.Location = new System.Drawing.Point(9, 153);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(198, 95);
             this.button10.TabIndex = 16;
-            this.button10.Text = "InvelitoareJarvis";
+            this.button10.Text = "InvelitoareConvexaSimplu";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
@@ -289,6 +289,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(625, 653);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -302,7 +303,6 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);

@@ -38,18 +38,20 @@ namespace Teme
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(14, 14);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(620, 343);
+            this.panel1.Size = new System.Drawing.Size(723, 396);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(639, 13);
+            this.button1.Location = new System.Drawing.Point(746, 15);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(88, 27);
             this.button1.TabIndex = 1;
             this.button1.Text = "DrawMode";
             this.button1.UseVisualStyleBackColor = true;
@@ -58,9 +60,10 @@ namespace Teme
             // buttonFinishUp
             // 
             this.buttonFinishUp.Enabled = false;
-            this.buttonFinishUp.Location = new System.Drawing.Point(639, 43);
+            this.buttonFinishUp.Location = new System.Drawing.Point(746, 50);
+            this.buttonFinishUp.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.buttonFinishUp.Name = "buttonFinishUp";
-            this.buttonFinishUp.Size = new System.Drawing.Size(75, 23);
+            this.buttonFinishUp.Size = new System.Drawing.Size(88, 27);
             this.buttonFinishUp.TabIndex = 2;
             this.buttonFinishUp.Text = "FinishUp";
             this.buttonFinishUp.UseVisualStyleBackColor = true;
@@ -69,24 +72,26 @@ namespace Teme
             // buttonPartiton
             // 
             this.buttonPartiton.Enabled = false;
-            this.buttonPartiton.Location = new System.Drawing.Point(638, 72);
+            this.buttonPartiton.Location = new System.Drawing.Point(744, 83);
+            this.buttonPartiton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.buttonPartiton.Name = "buttonPartiton";
-            this.buttonPartiton.Size = new System.Drawing.Size(75, 23);
+            this.buttonPartiton.Size = new System.Drawing.Size(88, 27);
             this.buttonPartiton.TabIndex = 3;
             this.buttonPartiton.Text = "Partition";
             this.buttonPartiton.UseVisualStyleBackColor = true;
             this.buttonPartiton.Click += new System.EventHandler(this.buttonPartiton_Click);
             // 
-            // Form1
+            // Tema9_PartitionarePoligoaneMonotone
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 367);
+            this.ClientSize = new System.Drawing.Size(863, 423);
             this.Controls.Add(this.buttonPartiton);
             this.Controls.Add(this.buttonFinishUp);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Name = "Tema9_PartitionarePoligoaneMonotone";
             this.Text = "FormPartPoligMontone";
             this.ResumeLayout(false);
 

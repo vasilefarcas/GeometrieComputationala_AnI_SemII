@@ -1,7 +1,7 @@
 ﻿
 namespace Teme
 {
-    partial class TriangularePoligonMonoton
+    partial class Tema10_TriangularePoligonMonoton
     {
         /// <summary>
         /// Required designer variable.
